@@ -1,7 +1,0 @@
-baseURL = "/"
-languageCode: en-us
-title: r-rse
-
-
-themesDir = "themes"
-theme = "hugo-hero-theme"
