@@ -11,13 +11,17 @@ heroBackground: 'services/carlos-muza-hpjSkU2UYSU-unsplash.jpeg'
 blendMode: 'hero-image-blend-color-burn'
 ---
 
-Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions.
+Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. Shiny apps can be themed to match your institutional, funder or project branding and can be extended with any number of functionalities through htmlwidgets, and JavaScript. actions.
 
 
-Shiny apps are a great option if you:
+#### Shiny apps are a great option if you want to allow others to:
 
-* Have a large data set you'd like to allow users to navigate. You can also allow users to add functionality to extract data.
-* **Explore the behaviour of models**: Shiny apps are a great way of allowing using to explore a model's parameter space and the resulting outputs. Whether in tabular, plot, a shiny web abb is a great way of bringing a model to life.
-- Teaching
+* **Explore a dataset** a shiny app can be especially useful if you have a large data set you'd like to allow users to explore. From raw data, visualisations or tables of statistical summaries, variable covariances, missing data characteristics or maps of spatial data, shiny apps can provide a much more user friendly exploration interface to data than, for example, a static Rmarkdown report, which can quickly become unwieldy with lots of data and properties to report. You can also allow users to add functionality to extract data.
+* **Explore the behaviour of models**: whether an analytical model, a machine learning model or a simulation, shiny apps are also a great way of allowing using to explore a model's input or parameter space and the resulting outputs, bringing your model to life! Such apps can also be excellent companion outputs to published research, allowing you to present additonal research results not able to be including in a given research paper.
+- **Teaching**: following on from the last two examples, shiny apps are a great teaching aid, enabling interactivity with data and concepts.
 
-### Deployment
+I can help you with designing your app, building it an app from scratch, refactoring analysis code into a shiny app or refactoring a prototype app into a production level application, complete with theming and functionality tests.
+
+### Hosting and Deployment
+
+There are a number of deployment and hosting options available for shiny apps, from using Rstudio's shinyapp.io services to hosting them on your own servers or the cloud or publishing / packaging your shiny app code for users to run locally. Each approach has different benefits and limitations and I can help you navigate the options, take care of deployment or support you on deploying the app yourself.
