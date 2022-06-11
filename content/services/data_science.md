@@ -1,13 +1,13 @@
 ---
 title: 'Data Science'
 date: 2018-11-18T12:33:46+10:00
-icon: 'services/bar-chart.gif'
+icon: 'services/line-chart.gif'
 draft: false
 featured: true
 weight: 1
 heroHeading: 'Data Science'
 heroSubHeading: 'Get help with your Data science R pipelines'
-heroBackground: 'services/bar-chart.gif'
+heroBackground: 'services/line-chart.gif'
 blendMode: 'hero-image-blend-color-burn'
 ---
 ## Modern Research &#8773; Data science

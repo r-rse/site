@@ -1,12 +1,12 @@
 ---
 title: 'Digital asset management'
 date: 2018-11-28T15:14:54+10:00
-icon: 'services/flow-chart.gif'
+icon: 'services/folders.gif'
 featured: true
 draft: false
 heroHeading: 'Digital asset management'
 heroSubHeading: "Get your team's digital research assets, like code and data, in order."
-heroBackground: 'services/flow-chart.gif'
+heroBackground: 'services/folders.gif'
 blendMode: 'hero-image-blend-color-burn'
 weight: 5
 ---
