@@ -11,48 +11,123 @@ heroBackground: 'services//blackboard.gif'
 blendMode: 'hero-image-blend-color-burn'
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+While access to an RSE to help with your R workflows can be useful, **it's even better to equip your team with skills to follow best practice in their own work from the start**.
 
-## Ne verba patulosque numen vix libet
+Such capacity building of researchers was one of my favourite parts of my RSE work. I find it most rewarding to see people's reactions when they realise the power of R and associated ecosystem of tools and of following best practice in code development and research data management. From full day to multi-day courses, shorter and more targeted workshops and seminars, **I can help your team identify and get access to the training they need to get the most out of working with research code and data**.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+All examples of training materials below can be updated with newer information or modified to suit your specific needs. And of course, **I am always interested in developing something new** so please get in touch so we can discuss your needs!
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+## Courses
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+I have developed and taught a number of full to multi day courses. Here are a couple of examples of the types of courses I like to teach. 
 
-## Postquam tamen
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
+{{< detail-tag tabtitle="#### Reproducible Research Data and Project Management in R" screenshot="/services/acce-rrresearch.png" href="https://annakrystalli.me/rrresearchACCE20/" duration="4 days"
+level="Beginner to Intermediate" button-text="Course Website" platform="RStudio Cloud" >}}
 
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+This 4 day course was developed for the [ACCE Doctoral Partnership](https://acce.shef.ac.uk/) program and delivered yearly from 2015 to 2021.
+
+It focuses on data and project management through R and Rstudio, introduces students to best practice and equips them with modern tools and techniques for managing data and computational workflows to their full potential. The course is designed to be relevant to students with a wide range of backgrounds, working with anything from relatively small sets of data collected from field or experimental observations, to those taking a more computational approach and bigger datasets.
+
+By the end of the workshop, participants will be able to:
+- Understand the basics of good research data management and be able to produce clean datasets with appropriate metadata.
+- Manage computational projects for reproducibility, reuse and collaboration.
+- Use version control to track the evolution of research projects.
+- Use R tools and conventions to document code and analyses and produce reproducible reports.
+- Be able to publish, share materials and collaborate through the web.
+- Manage dependencies for your project.
+- Create a basic R package and implement tests for your functions.
+- Understand why this all matters!
+
+The full course materials, including a breakdown of topics covered each day, are freely available.
+
+
+{{< /detail-tag >}}
+
+
+
+
+{{< detail-tag tabtitle="#### Git & GitHub through GitKraken Client - From Zero To Hero!" screenshot="/services/gitkraken.png" href="https://srse-git-github-zero2hero.netlify.app/" duration="1 day" level="Beginner to Intermediate" button-text="Course Website" platform="GitKraken">}}
+
+
+
+In this course participants will learn about version control and collaboration through Git, GitHub & GitKraken Client. I developed the course as a staple training offering for the Sheffield RSE team and ran monthly training sessions for students and staff at the the University of Sheffield as well as specific groups. 
+
+The course covers:
+
+- Version controlling your own project through Git & GitHub.
+- Basic collaboration through forks on GitHub.
+- Advanced team collaboration through branches on GitHub.
+- Using GitKraken Client for a smooth version control experience.
+
+{{< /detail-tag >}}
+
+
+## Workshops
+
+Depending on the time available for training, a shorter workshop on a specific topic might be more appropriate. Here's a few examples of workshops I've developed and delivered in response to client requests.
+
+
+{{< detail-tag tabtitle="#### Introduction to GIS in R" screenshot="/services/gis.png" href="https://annakrystalli.me/intro-r-gis/" duration="3.5 hrs" level="Intermediate" button-text="Course Website" platform="RStudio Cloud">}}
+
+Developed for the Programming for Evolutionary Biology 2018 Conference, this half day workshop introduces participants to the basics of Geographic Information Systems (GIS) in R.
+
+
+Workshop aims and objectives:
+
+- Understand the basics of GIS
+- Understand spatial data types and formats
+- Be able to work with, manipulate, combine and extract spatial data in R
+- Be able to plot geospatial data
+
+{{< /detail-tag >}}
+
+
+
+{{< detail-tag tabtitle="#### EMODnet Biology `dataspice` Tutorial" screenshot="/services/dataspice.png" href="https://annakrystalli.me/emodnet-dataspice-tutorial/" duration="1.5 hrs" level="Beginner" button-text="Course Website">}}
+
+The goal of this tutorial is to provide a practical exercise in creating metadata for an example field collected data product using package `dataspice`.
+
+By the end of the workshop, participants will:
+
+- Understand basic metadata and why it is important.
+- Understand where and how to collect and store them.
+- Understand how they can feed into more complex metadata objects.
+
+
+{{< /detail-tag >}}
+
+
+{{< detail-tag tabtitle="#### Reproducible Research in R with `rrtools`" screenshot="/services/rrtools.png" href="https://annakrystalli.me/rrtools-repro-research/index.html" duration="3 hrs" level="Intermediate">}}
+
+In this workshop we use materials associated with a published paper (text, data and code) to create a research compendium around it in R using package `rrtools`.
+
+
+
+By the end of the workshop, you should be able to:
+
+- Be able to Create a Research Compendium to manage and share resources associated with an academic publication.
+- Understand the basics of managing code as an R package.
+- Be able to produce a reproducible manuscript from a single rmarkdown document.
+- Appreciate the power of convention!
+
+{{< /detail-tag >}}
+
+
+## Seminars
+
+Perhaps you just want someone to speak about best practice when working with research code and data in R! I've given many talks on topics regarding research reproducibility (have a look at our page on [advocacy services]({{< ref "/services/advocacy" >}}) for more details), but here's an example of the most well rounded talk on the topic.
+
+{{< detail-tag tabtitle="#### Putting the R into Reproducble Research" screenshot="/services/r-in-repro.png" href="https://annakrystalli.me/talks/r-in-repro-research-dc-srse.html#1" duration="1 hr (+)" button-text="Slides" >}}
+
+##### Seminar Abstract:
+
+R and its ecosystem of packages offers a wide variety of statistical and graphical techniques and is increasing in popularity as the tool of choice for data analysis in academia.
+In addition to its powerful analytical features, the R ecosystem provides a large number of tools and conventions to help support more open, robust and reproducible research. This includes tools for managing research projects, building robust analysis workflows, documenting data and code, testing code and disseminating and sharing analyses.
+In this talk we’ll take a whistle-stop tour of the breadth of available tools, demonstrating the ways R and the Rstudio integrated development environment can be used to underpin more open reproducible research and facilitate best practice
+
+I've given this talk a number of times and continue to update it every time. A [recording of the last time I presented it](https://digitalmedia.sheffield.ac.uk/media/Lunch+bytes+6A+Putting+the+R+into+Reproducible+Research/1_kwofatj6) at the RSE Sheffield Lunch Bytes seminar series is available.
+
+{{< /detail-tag >}}

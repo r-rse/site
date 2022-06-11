@@ -1,0 +1,15 @@
+<details>
+  <summary class="training{{ with .Get "class" }} {{ . }}{{ end }}">{{ .Get "tabtitle" | markdownify }}</summary>
+  <div class="detail-inner">
+      <h5><strong>Duration:</strong>&nbsp;{{ .Get "duration" }}</h5>
+      {{ with .Get "level" }}<h5><strong>Level:</strong>&nbsp;{{ . }}</h5>{{ end }}
+      {{ with .Get "platform" }}<h5><strong>Teaching Platform:</strong>&nbsp;{{ . }}</h5>{{ end }}
+      {{ .Inner | markdownify }}
+      <div class="md-button-container">
+        <a class="markdown-btn" href="{{ .Get "href" }}" target = "_blank">  {{ .Get "button-text" }} </a>
+      </div>
+      <div class="md-button-container">
+        <img src="{{ .Get "screenshot" }}"  width=90% />
+      </div>
+  </div>
+</details>

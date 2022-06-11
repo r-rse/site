@@ -56,6 +56,7 @@
 @import 'components/social';
 @import 'components/hamburger';
 @import 'components/buttons';
+@import 'components/md-button';
 @import 'components/title';
 @import 'components/content';
 @import 'components/intro';
@@ -143,3 +144,37 @@ td > code {
     color: $inverted-header;
   }
 }
+
+summary.training {
+  display: list-item; // Add the correct display in all browsers
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  color: white;
+  background-color: $primary;
+  border-radius: $border-radius;
+  text-align: center;
+  padding: 0.5em 1em 2em 1em;
+  text-decoration: none !important;
+  border: none;
+  cursor: pointer;
+  list-style: none !important;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  
+  &:hover,
+  &:active {
+    border: 0.1em solid $primary;
+    padding: 0.4em 0.9em 1.9em 0.9em;
+    color: $primary;
+    text-decoration: none;
+    background-color: var(--primary-color);
+  }
+}
+
+  .detail-inner {
+      margin-left: 4em;
+      padding-left: 2em;
+      margin-top: 2em;
+      border-left: 0.2em solid $primary;
+  }
