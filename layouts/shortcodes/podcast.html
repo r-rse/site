@@ -1,0 +1,20 @@
+<div class ="container h-100 podcast">
+    <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-3">
+            <a href="{{ .Get "caption" }}">
+            <div class = "img-responsive">
+            <img class="podcast-thumb" src="{{ .Get "thumbnail" }}" width="100%" />
+            </div>
+            </a>
+        </div>
+        <div class="col-9 podcast-audio-col">
+            <h4>{{ .Get "podcast" }}</h4>
+            <h6>{{ .Get "podcast-title" }}</h4>
+            <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+                <audio controls preload="{{ .Get "preload" | default "metadata" }}">
+                    {{ with .Get "src" }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
+                </audio>
+            </figure>
+        </div>    
+    </div>
+</div>

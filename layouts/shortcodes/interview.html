@@ -1,0 +1,19 @@
+<div class ="container h-100 podcast">
+    <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-3">
+            <a href="{{ .Get "caption" }}">
+            <div class = "img-responsive">
+            <img class="podcast-thumb" src="{{ .Get "thumbnail" }}" width="100%" />
+            </div>
+            </a>
+        </div>
+        <div class="col-9 podcast-audio-col">
+            <h4>{{ .Get "podcast" }}</h4>
+            <h6>{{ .Get "podcast-title" }}</h4>
+            <p class="interview-col">
+            {{ .Inner | markdownify }}
+            </p>
+            <h6><a href="{{ .Get "caption" }}">Read More</a></h6>
+        </div>    
+    </div>
+</div>

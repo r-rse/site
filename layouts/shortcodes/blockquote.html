@@ -1,0 +1,6 @@
+<blockquote>
+    {{ .Inner }}
+    <div class="blockquote-source">
+        {{ with .Get "source" }}{{ . | markdownify }}{{ end }}
+    </div>
+</blockquote>

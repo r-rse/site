@@ -6299,4 +6299,39 @@ summary.training {
   margin-top: 2em;
   border-left: 0.2em solid #11a3a5; }
 
+blockquote {
+  border-left: 0.2em solid #11a3a5;
+  padding-left: 2em;
+  margin: 1rem 1rem 2rem 1.5rem; }
+  blockquote .blockquote-source {
+    padding-top: 1rem;
+    font-style: oblique;
+    font-size: 0.9rem; }
+
+.podcast {
+  background-color: #dee2e6 !important;
+  border-radius: 20px;
+  margin: 1em 0; }
+  .podcast .interview-col {
+    padding: 0.5em;
+    font-style: oblique;
+    font-size: 0.8rem; }
+  .podcast .podcast-audio-col {
+    padding: 0.5em; }
+
+img.podcast-thumb {
+  border-radius: 20px;
+  padding: 0.5em; }
+
+.iframe-wrapper {
+  position: relative;
+  padding-bottom: 75%; }
+
+iframe.talk {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 /*# sourceMappingURL=style.css.map */
