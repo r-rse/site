@@ -5,54 +5,45 @@ icon: 'services/folders.gif'
 featured: true
 draft: false
 heroHeading: 'Digital asset management'
-heroSubHeading: "Get your team's digital research assets, like code and data, in order."
+heroSubHeading: "Get your team's digital research assets and digital working practices in order!"
 heroBackground: 'services/folders.gif'
 blendMode: 'hero-image-blend-color-burn'
 weight: 5
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Organising your team around convention can be a critical part of doing more with your code and data.
 
-## Ne verba patulosque numen vix libet
+- Team mates trying to collaborate find other people's work hard to access and understand
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+## Organise your data, code and ways of working.
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+- Decide on a framework for storage, cataloguing and archiving
+- Centralise assets
+- Build convention on how they are produced and used.
+- Onboard and offboard
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+## The power of convention
 
-## Postquam tamen
+{{< blockquote source="**Jenny Bryan** on [Project-oriented workflows](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/)">}}
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+It’s like agreeing that we will all drive on the left or the right. A hallmark of civilization is following conventions that constrain your behavior a little, in the name of public safety.
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+{{< /blockquote >}}
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
+For example, agreeing on variable names across datasets, on file formats, file naming, folder structure and organisation can help interoperability of teammates work immensely. It can help team members navigate your team assets with ease...including their own work.
 
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+## Documentation = the heart of a community of practice.
+
+
+Good documentation to power a community of practice around your team's work
+
+## Tools, Templating and automation
+
+The powerful thing about developing and documenting convention is that it allows you to build tools, templates and automation around it!
+
+From checklists, GitHub Issue and Pull Request templates to guide the team through action, parametarised Rmarkdown or Quarto reports to reusable processing or analysis pipelines, consistent ways of working and producing digtal assets can make their reuse much easier.
+
+Conversely templating and automation which includes important checks can ensure help make it easier to ensure conventions are followed!
+
+A great example of convention powering automation and templating is the `usethis` package. It's a veritable treasure trove for setting up the repetitive infrastructure and files an R package or project depends.
+
