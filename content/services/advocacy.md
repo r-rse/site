@@ -11,6 +11,7 @@ heroBackground: 'services/promotion.png'
 blendMode: 'hero-image-blend-color-burn'
 ---
 
+A longer term solution to getting access to RSE skills where they don't yet exist is to campaign for them! I can help with most forms of advocacy, from motivating talks to help with writing white papers or proposals.
 
 ## Talks
 
