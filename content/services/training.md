@@ -70,7 +70,7 @@ The course covers:
 Depending on the time available for training, a shorter workshop on a specific topic might be more appropriate. Here's a few examples of workshops I've developed and delivered in response to client requests.
 
 
-{{< detail-tag tabtitle="#### Introduction to GIS in R" screenshot="/services/gis.png" href="https://annakrystalli.me/intro-r-gis/" duration="3.5 hrs" level="Intermediate" button-text="Course Website" platform="RStudio Cloud">}}
+{{< detail-tag tabtitle="#### Introduction to GIS in R" screenshot="/services/gis.png" href="https://annakrystalli.me/intro-r-gis/" duration="3.5 hrs" level="Intermediate" button-text="Course Website" platform="RStudio Cloud" button-text="Course Website" >}}
 
 Developed for the Programming for Evolutionary Biology 2018 Conference, this half day workshop introduces participants to the basics of Geographic Information Systems (GIS) in R.
 
@@ -100,7 +100,7 @@ By the end of the workshop, participants will:
 {{< /detail-tag >}}
 
 
-{{< detail-tag tabtitle="#### Reproducible Research in R with `rrtools`" screenshot="/services/rrtools.png" href="https://annakrystalli.me/rrtools-repro-research/index.html" duration="3 hrs" level="Intermediate">}}
+{{< detail-tag tabtitle="#### Reproducible Research in R with `rrtools`" screenshot="/services/rrtools.png" href="https://annakrystalli.me/rrtools-repro-research/index.html" duration="3 hrs" level="Intermediate" button-text="Course Website" >}}
 
 In this workshop we use materials associated with a published paper (text, data and code) to create a research compendium around it in R using package `rrtools`.
 
