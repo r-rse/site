@@ -46,6 +46,7 @@ We can help with:
 * Code modularisation and function development
 * Code Optimisation
 * Code testing and validation
+* Exception handling with actionable, human friendly user messages.
 * Documentation (function, long form)
 * Literate Programming and Report writing in Rmarkdown or Quarto
 * Dependency and computational environment management (including containerisation with Docker of Singularity)
