@@ -13,7 +13,7 @@ blendMode: 'hero-image-blend-color-burn'
 
 While access to an RSE to help with your R workflows can be useful, **it's even better to equip your team with skills to follow best practice in their own work from the start**.
 
-Such capacity building of researchers was one of my favourite parts of my RSE work. I find it most rewarding to see people's reactions when they realise the power of R and associated ecosystem of tools and of following best practice in code development and research data management. From full day to multi-day courses, shorter and more targeted workshops and seminars, **I can help your team identify and get access to the training they need to get the most out of working with research code and data**.
+Such capacity building of researchers was one of my favourite parts of being an RSE. I find it most rewarding to see people's reactions when they realise the power of R and associated ecosystem of tools and of following best practice in code development and research data management. From full day to multi-day courses, shorter and more targeted workshops and seminars or hackathons, **I can help your team identify and get access to the training they need to get the most out of working with research code and data**.
 
 All examples of training materials below can be updated with newer information or modified to suit your specific needs. And of course, **I am always interested in developing something new** so please get in touch so we can discuss your needs!
 
@@ -129,5 +129,30 @@ In addition to its powerful analytical features, the R ecosystem provides a larg
 In this talk we’ll take a whistle-stop tour of the breadth of available tools, demonstrating the ways R and the Rstudio integrated development environment can be used to underpin more open reproducible research and facilitate best practice
 
 I've given this talk a number of times and continue to update it every time. A [recording of the last time I presented it](https://digitalmedia.sheffield.ac.uk/media/Lunch+bytes+6A+Putting+the+R+into+Reproducible+Research/1_kwofatj6) at the RSE Sheffield Lunch Bytes seminar series is available.
+
+{{< /detail-tag >}}
+
+## Hackathons
+
+I've been involved in many hackathons, both as participant and organiser, and find them extermely effective and productive learning environments. Whatever the learning experience you want to create and topic you want to base your hackathon around, I can help you design and facilitate all aspects of it.
+
+You can get a taste for why I love hackathons from the slides that accompanied the invited talk I gave at the British Ecological Society Quantitative Ecology Special Interest Group Hackathon in 2019.
+
+{{< iframe "https://annakrystalli.me/talks/bes_hackathon.html#1" >}}
+
+My speciality however, as founder and core team member of the ReproHack team, is running ReproHacks! See below for more details on the Reproducibility Hackathons we run.
+
+
+
+{{< detail-tag tabtitle="#### ReproHacks" screenshot="/services/screenshot_beta.png" href="https://www.reprohack.org/" duration="Usually 1 day" button-text="ReproHack Hub" >}}
+
+
+
+
+[ReproHacks](https://www.reprohack.org/) provide sandbox environments for practicing Reproducible Research. During a ReproHack, participants attempt to reproduce published research of their choice from a list of proposed papers using publicly available associated code and data. Participants get to work with other people’s material in a low pressure environment and record their experiences on a number of key aspects, including reproducibility, transparency and reusability of materials. Authors receive invaluable feedback on the reproducibility and reusability of their work.
+
+The project has seen a lot of development since being the topic of my 2019 SSI fellowship, we’ve experimented a lot with the format, from in person to remote, from standalone events to series of events or part of larger conferences and in March 2022, in collaboration with the University of Warwick, we ran a successful first HPC Reprohack on [Sulis Tier 2 HPC Platform for Ensemble Computing](Sulis : A Tier 2 HPC Platform for Ensemble Computing) over 10 days.
+
+We also now have the ReproHack hub (https://www.reprohack.org/) which provides infrastructure for facilitating all aspects of an event. If you are interested in finding out more or running one yourselves, please have a look at the Hub. There are plently of resources to get you started. However, should you want myself to come run one for you, please get in touch!
 
 {{< /detail-tag >}}
