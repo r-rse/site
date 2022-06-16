@@ -42,14 +42,16 @@ Ensuring transparency, robustness, efficiency and reproducibility is just as imp
 We can help with:
 
 
-* Project organisation for portability, transparency and orientation.
+* Project organisation for portability, transparency and orientation
 * Code modularisation and function development
+* Code Optimisation
 * Code testing and validation
 * Documentation (function, long form)
-* Performance
-* Dependency and computational environment management 
+* Literate Programming and Report writing in Rmarkdown or Quarto
+* Dependency and computational environment management (including containerisation with Docker of Singularity)
 * Version control and transparent code sharing (publically or privately) through online repositories
-* Continuous integration
+* Continuous integration (for testing or automated documentation builds)
+
 
 
  
