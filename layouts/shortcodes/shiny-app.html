@@ -1,0 +1,45 @@
+<br>
+
+<div class ="container h-100 podcast justify-content-centre align-text-center">
+    <h2>{{ .Get "title" }}</h2>
+        <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
+            <a href="{{ .Get "app-href" }}">
+                <div class = "img-responsive">
+                    <img src="{{ .Get "screenshot" }}" 
+                    {{ if or (.Get "alt") (.Get "caption") }}
+                    alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"
+                    {{ end }}  width="100%" />
+                </div>
+            </a>
+             {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr") }}
+                <figcaption class="interview-col">
+                    <p>Screenshot of {{ .Get "title" }} app
+                    {{ .Get "caption" }}
+                    {{ if or (.Get "caption") (.Get "attr") }}
+                    {{ with .Get "attrlink" }}<a href="{{ . }}"> {{ end }}
+                        {{ .Get "attr" }}
+                    {{ if .Get "attrlink" }}</a> {{ end }}
+                    </p> {{ end }}
+                </figcaption>
+            {{ end }}
+        </figure>
+        <hr>
+        {{ .Inner | markdownify }}
+                <div class="row h-100">
+            <div class="col-auto">
+                <div class="md-button-container">
+                    <a class="markdown-btn" href="{{ .Get "app-href" }}">
+                        <i class="fa-browser"></i> Shiny App 
+                    </a>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="md-button-container">
+                    <a class="markdown-btn" href="{{ .Get "code-href" }}">
+                        <i class="fas fa-code"></i> 
+                        Code 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
