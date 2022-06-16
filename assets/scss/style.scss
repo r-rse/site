@@ -222,6 +222,13 @@ img.podcast-thumb  {
     position: relative;
     padding-bottom: 75% // 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
 }
+
+.webpage-wrapper {
+    position: relative;
+    padding-bottom: 80%;
+    border: 0.1em solid $primary;
+}
+
 iframe.talk {
     position: absolute;
     top: 0;

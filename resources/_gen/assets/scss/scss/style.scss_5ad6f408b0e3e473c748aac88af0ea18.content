@@ -6327,6 +6327,11 @@ img.podcast-thumb {
   position: relative;
   padding-bottom: 75%; }
 
+.webpage-wrapper {
+  position: relative;
+  padding-bottom: 80%;
+  border: 0.1em solid #11a3a5; }
+
 iframe.talk {
   position: absolute;
   top: 0;
