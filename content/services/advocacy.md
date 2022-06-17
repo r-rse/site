@@ -13,14 +13,46 @@ blendMode: 'hero-image-blend-color-burn'
 
 A longer term solution to getting access to RSE skills where they don't yet exist is to campaign for them! I can help with most forms of advocacy, from motivating talks to help with writing white papers or proposals.
 
-## Talks
+{{< offering >}}
 
-### useR!2020 Keynote: Computational Reproducibility, from Theory to Practice
+## What I offer
+
+* Motivational talks, seminars, interviews or panel appearances on the topics of:
+    - The importance of RSE in academia.
+    - Reproducible Research (especially in R).
+    - Experiences working as an independent but academia adjacent RSE consultant.
+* Contributing blogpost on similar topics.
+* Help with writing RSE work into grants.
+* Proposals or whitepapers promoting the concept of RSE.
+
+{{< /offering >}}
+
+## Why bother?
+
+Recognition of the importance of Research Software Engineering is slowly but surely spreading beyond the UK with many other countries promoting the role in academia. For example, this 2019 European Union white paper by the Open Science Monitor on  [Recognising the Importance of Software in Research – Research Software Engineers
+(RSEs), a UK Example](https://ec.europa.eu/info/sites/default/files/research_and_innovation/importance_of_software_in_research.pdf). Similar conclusions (among others) were drawn in the UK in the extremely thorough [Goldacre Review](https://www.goldacrereview.org/) into how the efficient and safe use of health data for research and analysis can benefit patients and the healthcare sector. While top down pressure is important, bottom up demand for RSE support is also an important part of the puzzle. The EU Open Science Monitor states that:
+
+{{< blockquote source="[Recognising the Importance of Software in Research – Research Software Engineers (RSEs), a UK Example - Open Science Monitor Case Study](https://ec.europa.eu/info/sites/default/files/research_and_innovation/importance_of_software_in_research.pdf)">}}
+
+The advocacy campaign through which the group engaged higher education
+media outlets, such as speaking at conferences and the creation of regular blog posts
+and news articles, also helped to raise the awareness of the role of RSEs and the
+need to support them
+
+{{< /blockquote >}}
+
+
+## Why me?
+
+
+### Talks
+
+#### useR!2020 Keynote: Computational Reproducibility, from Theory to Practice
 
 {{< youtube id="KHMW8fV2NXo" title="useR! 2020: Keynote - Computational Reproducibility, from Theory to Practice (Anna Krystalli)" >}}
 
 
-### What Can RSEs Do For U?
+#### What Can RSEs Do For U?
 ##### 2019 BES Quantitative & Movement Ecology SIG Annual Meeting
 
 
