@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-uk"
-title = "r-rse"
+title = "Dr Anna Krystalli | r-rse"
 themesDir = "themes"
 theme = "hugo-hero-theme"
 
@@ -23,7 +23,7 @@ theme = "hugo-hero-theme"
 
   [params.homepage_meta_tags]
     meta_description = "Dr. Anna Krystalli - Research Software Engineering Services in R."
-    meta_og_title = "r-rse"
+    meta_og_title = "Dr Anna Krystalli | r-rse"
     meta_og_type = "website"
     meta_og_url = "https://r-rse.eu"
     meta_og_image = "/images/summary-card.png"
@@ -50,12 +50,12 @@ theme = "hugo-hero-theme"
 [[menu.main]]
     name = "CV"
     url = "/docs/eworx_CV_AK2.pdf"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 5
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
