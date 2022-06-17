@@ -13,11 +13,36 @@ blendMode: 'hero-image-blend-color-burn'
 
 While access to an RSE to help with your R workflows can be useful, **it's even better to equip your team with skills to follow best practice in their own work from the start**.
 
-Such capacity building of researchers was one of my favourite parts of being an RSE. I find it most rewarding to see people's reactions when they realise the power of R and associated ecosystem of tools and of following best practice in code development and research data management. From full day to multi-day courses, shorter and more targeted workshops and seminars or hackathons, **I can help your team identify and get access to the training they need to get the most out of working with research code and data**.
+{{< offering >}}
+
+## What I offer
+
+* Course development or augmentation of existing materials according to your participants needs.
+* I specialise in teaching R, particularly Reproducible Research in R from a Research Software Engineering, which also includes topics like version control and `git`.
+* Targeted training activities that are relevant to participant's domain and workflows. 
+* Code along training, where I code and participants follow.
+* Remote or in-person teaching.
+* Delivery on Rstudio cloud for better control of computational environment.
+* Course materials websites available beyond the course, inclusing full setup instructions on participant's own systems. 
+* Interactive materials using the [`learnr`](https://rstudio.github.io/learnr/) package.
+* Development and delivery of hackathons, especially [ReproHacks](https://www.reprohack.org/)
+
+{{< /offering >}}
+
+## Why bother?
+
+It's much better to set your team up following best practice from the start. New PhD students especially can waste a lot of time trying to figure things out on their own, **often unaware of how much simpler and more effective their scientific code and data workflows could be if they knew a bit more about their tools and had some guidance on the most effective way to use them**. Once (non best practice) habits form, it's also often harder to motivate folks to invest in changing them. That's why I've found working with PhD students especially fruitful. Having said that, **it's never too late to learn the full power of your tools and better ways of working** and I've worked with many enthusiastic participants at all career stages!
+
+
+## Why me? 
+
+**Capacity building of researchers continues to be my favourite part of being an RSE.** I find it most rewarding to see people's reactions when they realise the power of R and associated ecosystem of tools and of following best practice in code development and research data management. I'm a Certified Software Carpentries instructor and have had a lot of experience by now developing and delivering creative training courses. From full day to multi-day courses, shorter and more targeted workshops and seminars or hackathons, **I can help your team identify and get access to the training they need to get the most out of working with research code and data**.
+
+## Examples of training I offer
 
 All examples of training materials below can be updated with newer information or modified to suit your specific needs. And of course, **I am always interested in developing something new** so please get in touch so we can discuss your needs!
 
-## Courses
+### Courses
 
 I have developed and taught a number of full to multi day courses. Here are a couple of examples of the types of courses I like to teach. 
 
@@ -65,7 +90,7 @@ The course covers:
 {{< /detail-tag >}}
 
 
-## Workshops
+### Workshops
 
 Depending on the time available for training, a shorter workshop on a specific topic might be more appropriate. Here's a few examples of workshops I've developed and delivered in response to client requests.
 
@@ -116,7 +141,7 @@ By the end of the workshop, you should be able to:
 {{< /detail-tag >}}
 
 
-## Seminars
+### Seminars
 
 Perhaps you just want someone to speak about best practice when working with research code and data in R! I've given many talks on topics regarding research reproducibility (have a look at our page on [advocacy services]({{< ref "/services/advocacy" >}}) for more details), but here's an example of the most well rounded talk on the topic.
 
@@ -132,7 +157,7 @@ I've given this talk a number of times and continue to update it every time. A [
 
 {{< /detail-tag >}}
 
-## Hackathons
+### Hackathons
 
 I've been involved in many hackathons, both as participant and organiser, and find them extermely effective and productive learning environments. Whatever the learning experience you want to create and topic you want to base your hackathon around, I can help you design and facilitate all aspects of it.
 
