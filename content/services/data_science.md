@@ -16,7 +16,27 @@ blendMode: 'hero-image-blend-color-burn'
 
 As modern research becomes increasingly computational, leveraging more diverse forms of data and employing programming for data wrangling, modelling and analysis across more domains, it begins to increasingly fits the definition of data science. 
 
+{{< offering >}}
 
+## What I offer
+
+* Project organisation for portability, transparency and orientation.
+* Code modularisation and function development.
+* Code Optimisation.
+* Code testing and validation.
+* Exception handling with actionable, human friendly user messages.
+* Documentation (function, long form).
+* Data cleaning, processing, munging validation and documentation.
+* Literate Programming, Report and manuscript writing in Rmarkdown or Quarto.
+* Setting you up to write your thesis in R using bookdown.
+* Dependency and computational environment management (including containerisation with Docker of Singularity).
+* Version control and transparent code sharing (publically or privately) through online repositories.
+* Continuous integration (for testing or automated documentation builds).
+* Packaging papers, code and data into Research Compendia.
+
+{{< /offering >}}
+
+## Why bother?
 
 The **open source statistical programming language R**, has a rich history in academia and is increasingly a tool of choice in data science due to its broad statistical capabilities and active community supporting a rich ecosystem of powerful and continuously evolving packages. 
 
@@ -24,7 +44,7 @@ Such blending of freely available programming and statistical capabilities means
 
 **This is where we come in!**
 
-
+## Why me?
 
 ### Data Science
 
@@ -39,19 +59,7 @@ from data cleaning, profiling and validation, data munging, data modelling, pred
 
 Ensuring transparency, robustness, efficiency and reproducibility is just as important. Our experience in Research Software Engineering means such considerations are baked in from the start for all our projects. We can also help with refactoring your own project code according to software engineering best practice.
 
-We can help with:
 
-
-* Project organisation for portability, transparency and orientation
-* Code modularisation and function development
-* Code Optimisation
-* Code testing and validation
-* Exception handling with actionable, human friendly user messages.
-* Documentation (function, long form)
-* Literate Programming and Report writing in Rmarkdown or Quarto
-* Dependency and computational environment management (including containerisation with Docker of Singularity)
-* Version control and transparent code sharing (publically or privately) through online repositories
-* Continuous integration (for testing or automated documentation builds)
 
 
 

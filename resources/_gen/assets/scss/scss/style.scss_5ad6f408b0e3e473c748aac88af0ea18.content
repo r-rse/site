@@ -6345,4 +6345,10 @@ iframe.talk {
 .shiny-caption {
   font-size: 1em; }
 
+.offering {
+  background-color: RGBA(17, 163, 165, 0.25) !important;
+  border-radius: 20px;
+  margin: 1em 0;
+  padding: 1em 1.5em; }
+
 /*# sourceMappingURL=style.css.map */
