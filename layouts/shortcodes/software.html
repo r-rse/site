@@ -1,5 +1,9 @@
- <div class="webpage-wrapper" >
-    <iframe class="talk" src="{{ .Get "src" }}" frameborder="0" width="100%" height="100%"></iframe>
+ <div class="webpage-wrapper{{ if isset .Params "image-src"}}{{ "screenshot" }}{{ end }}" >
+     {{ with .Get "src" }}
+    <iframe class="talk" src="{{ . }}" frameborder="0" width="100%" height="100%"></iframe> {{ end }}
+     {{ with .Get "image-src" }}
+     <image class="screenshot" src={{ . }} width="100%"></image>
+     {{ end }}
 </div>
 <div class="row h-100">
             <div class="col-auto">

@@ -1,11 +1,11 @@
 ---
-title: 'ReproHack Hub Web Application'
+title: 'ReproHack Hub'
 date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 2
-heroHeading: 'ReproHack Hub Web Application'
+heroHeading: 'ReproHack Hub'
 heroSubHeading: 'A Django app built to facilitate all aspects of running ReproHacks'
-heroBackground: '/work/reprohack_zom_background.png'
+heroBackground: '/work/reprohack_banner1.png'
 thumbnail: '/services/screenshot_beta.png'
 ---
 
@@ -15,5 +15,5 @@ A few months later, after getting it to a decent prototype stage and editing a f
 
 We launched the site in November 2021 and are extremely happy with it's ability to facilitate all ReproHack activities and with the good feedback we've had from users to the site (who have also been extremely helpful in reporting bugs!)
 
-{{< software src="https://www.reprohack.org/" btn-href="https://www.reprohack.org/" 
+{{< software image-src="/work/reprohack-screenshot-lg.png" btn-href="https://www.reprohack.org/" 
 btn-title="Web App" code-href="https://github.com/reprohack/reprohack_site" >}}

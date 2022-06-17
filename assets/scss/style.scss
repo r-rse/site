@@ -227,7 +227,13 @@ img.podcast-thumb  {
     position: relative;
     padding-bottom: 80%;
     border: 0.1em solid $primary;
+    
+    .screenshot {
+        padding-bottom: 10%;
+        border: 0.1em solid $primary;
+    }
 }
+
 
 iframe.talk {
     position: absolute;
