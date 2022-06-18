@@ -1,0 +1,47 @@
+<br>
+<div class ="container talk-card">
+    <h4>{{ .Get "title" }}</h4>
+    <h5>{{ .Get "subtitle" }}</h5>
+    <hr>
+    {{ with .Get "src" }}
+        <div class="iframe-wrapper" >
+            <iframe class="talk" src="{{ . }}" frameborder="0" width="100%" 
+                height="100%">
+            </iframe>
+        </div> 
+    {{ end }}
+    {{ with .Get "youtube-src" }}
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe src="https://www.youtube.com/embed/{{ . }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen></iframe>
+        </div>
+    {{ end }}
+    {{ with .Get "image-src" }}
+        <image class="screenshot" src={{ . }} width="100%"></image>
+    {{ end }}
+    <br>
+    <h6>Abstract</h6>
+    <div class="abstract">
+        {{ .Inner | markdownify }}
+    </div>
+    <div class="row">
+        <div class="col-auto">
+            <div class="md-button-container">
+                <a class="markdown-btn" href="{{ .Get "slides-href" }}">
+                    <i class="fa-browser"></i> Slides 
+                </a>
+            </div>
+        </div>
+        
+        <div class="col-auto">
+            {{ with .Get "rec-href" }}
+            <div class="md-button-container">
+                <a class="markdown-btn" href="{{ . }}">
+                    <i class="fas fa-code"></i> 
+                    Recording
+                </a>
+            </div>
+            {{ end }}
+        </div>
+   
+    </div>
+</div>

@@ -6351,4 +6351,14 @@ iframe.talk {
   margin: 1em 0;
   padding: 1em 1.5em; }
 
+.talk-card {
+  background-color: #dee2e6 !important;
+  border-radius: 20px;
+  margin: 1em 0;
+  padding: 1.5em 2em; }
+  .talk-card .abstract {
+    padding-top: 1rem;
+    font-style: oblique;
+    font-size: 0.9rem; }
+
 /*# sourceMappingURL=style.css.map */

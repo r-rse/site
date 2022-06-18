@@ -253,3 +253,16 @@ iframe.talk {
     margin: 1em 0; 
     padding: 1em 1.5em;
 }
+
+.talk-card {
+    background-color: $gray-300 !important;
+    border-radius: 20px;
+    margin: 1em 0;
+    padding: 1.5em 2em;
+    
+    .abstract {
+        padding-top: 1rem;
+        font-style: oblique;
+        font-size: $font-size-base * 0.9;
+    }
+}

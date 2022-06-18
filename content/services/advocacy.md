@@ -29,8 +29,8 @@ A longer term solution to getting access to RSE skills where they don't yet exis
 
 ## Why bother?
 
-Recognition of the importance of Research Software Engineering is slowly but surely spreading beyond the UK with many other countries promoting the role in academia. For example, this 2019 European Union white paper by the Open Science Monitor on  [Recognising the Importance of Software in Research – Research Software Engineers
-(RSEs), a UK Example](https://ec.europa.eu/info/sites/default/files/research_and_innovation/importance_of_software_in_research.pdf). Similar conclusions (among others) were drawn in the UK in the extremely thorough [Goldacre Review](https://www.goldacrereview.org/) into how the efficient and safe use of health data for research and analysis can benefit patients and the healthcare sector. While top down pressure is important, bottom up demand for RSE support is also an important part of the puzzle. The EU Open Science Monitor states that:
+Recognition of the importance of Research Software Engineering is slowly but surely spreading beyond the UK with many other countries promoting the role in academia. See this 2019 European Union Case Study by the Open Science Monitor on  [Recognising the Importance of Software in Research – Research Software Engineers
+(RSEs), a UK Example](https://ec.europa.eu/info/sites/default/files/research_and_innovation/importance_of_software_in_research.pdf). Similar conclusions (among others) were drawn in the UK public sector in the extremely thorough [Goldacre Review](https://www.goldacrereview.org/) into how the efficient and safe use of health data for research and analysis can benefit patients and the healthcare sector. While top down action is important, bottom up demand for RSE support is an equally important part of the puzzle. The EU Open Science Monitor Case study report states that:
 
 {{< blockquote source="[Recognising the Importance of Software in Research – Research Software Engineers (RSEs), a UK Example - Open Science Monitor Case Study](https://ec.europa.eu/info/sites/default/files/research_and_innovation/importance_of_software_in_research.pdf)">}}
 
@@ -44,21 +44,42 @@ need to support them
 
 ## Why me?
 
+Despite leaving my beloved Sheffield RSE group, I'm still very passionate about the work we did and have a lot of experience advocating for it's importance. I've given many talks on topics relating to Research Software Engineering in academia and Reproducible Research, co-organised symposia, participated on panels, written blog posts and appeared on relevant podcasts. Overall, I'm just as keen on spreading the word as you are on securing access to RSE services so let's join forces!
+
+Below are some examples of relevant advocacy work to give a flavour of my philosophy and approach.
 
 ### Talks
 
-#### useR!2020 Keynote: Computational Reproducibility, from Theory to Practice
+{{< talk youtube-src="KHMW8fV2NXo" 
+title="Computational Reproducibility, from Theory to Practice" 
+subtitle="useR!2020 Keynote" slides-href="https://annakrystalli.me/talks/user2020.html#1"
+rec-href="https://www.youtube.com/watch?v=KHMW8fV2NXo" >}}
 
-{{< youtube id="KHMW8fV2NXo" title="useR! 2020: Keynote - Computational Reproducibility, from Theory to Practice (Anna Krystalli)" >}}
+Drawing on experiences as a Research Software Engineer, an editor and reviewer of R packages for rOpenSci and a founding member of the ReproHack reproducibility hackathon team, I take a look at the progress we’ve made so far, try to identify what we’re still missing and offer some thoughts on how to move forward.
+
+{{< /talk >}}
+
+{{< talk src="https://annakrystalli.me/talks/bes_sig19.html#1" 
+title="What Can RSEs Do For U?" 
+subtitle="2019 BES Quantitative & Movement Ecology SIG Annual Meeting" slides-href="https://annakrystalli.me/talks/bes_sig19.html#1" >}}
+
+Invited talk at the BES Quantitative & Movement Ecology 2019 Annual Meeting to speak about what Research Software Engineers do and how they can support academics with their computational research. 
+
+{{< /talk >}}
 
 
-#### What Can RSEs Do For U?
-##### 2019 BES Quantitative & Movement Ecology SIG Annual Meeting
+{{< talk src="https://annakrystalli.me/talks/r-in-repro-research-dc-srse.html#1" 
+title="Putting the R into Reproducible Research" 
+subtitle="RSE Lunchbytes Seminar Series" slides-href="https://annakrystalli.me/talks/r-in-repro-research-dc-srse.html#1"
+rec-href="https://digitalmedia.sheffield.ac.uk/media/Lunch+bytes+6A+Putting+the+R+into+Reproducible+Research/1_kwofatj6" >}}
 
+R and its ecosystem of packages offers a wide variety of statistical and graphical techniques and is increasing in popularity as the tool of choice for data analysis in academia.
 
+In addition to its powerful analytical features, the R ecosystem provides a large number of tools and conventions to help support more open, robust and reproducible research. This includes tools for managing research projects, building robust analysis workflows, documenting data and code, testing code and disseminating and sharing analyses.
 
-{{< iframe "https://annakrystalli.me/talks/bes_sig19.html#1" >}}
+In this talk we’ll take a whistle-stop tour of the breadth of available tools, demonstrating the ways R and the Rstudio integrated development environment can be used to underpin more open reproducible research and facilitate best practice
 
+{{< /talk >}}
 
 ## In the media
 
