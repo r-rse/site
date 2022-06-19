@@ -2,7 +2,6 @@
 title: 'Research Software Engineer'
 date: 2018-12-06T09:29:16+10:00
 weight: 1
-background: '/images/parnassos_anna.jpeg'
 align: right
 avatar: '/images/avatar.jpg'
 ---
