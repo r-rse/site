@@ -7,5 +7,4 @@ public/
 themes/hugo-hero-theme/exampleSite/*
 static/images/Rlogo.svg
 R/build.R
-static/docs/*
 content/post/*
