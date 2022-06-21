@@ -6250,7 +6250,7 @@ td > code {
   margin-right: auto;
   margin-bottom: 5rem;
   border-radius: 50%;
-  width: 40%; }
+  width: 85%; }
   @media (min-width: 768px) {
     .avatar {
       width: 60%; } }
