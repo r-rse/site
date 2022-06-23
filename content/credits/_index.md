@@ -29,6 +29,7 @@ All icons were sourced from flaticon
 ### Images
 
 - Header photo on Shiny Apps Services page by [Carlos Muza](https://unsplash.com/@kmuza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- The R Logo was sourced and modified from the [R Project Website](https://www.r-project.org/logo/). The R logo is © 2016 of The R Foundation and distributed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/) (CC-BY-SA 4.0)
 
 
 ### Content
