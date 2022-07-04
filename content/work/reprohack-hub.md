@@ -2,7 +2,7 @@
 title: 'ReproHack Hub'
 date: 2018-11-18T12:33:46+10:00
 draft: false
-weight: 2
+weight: 4
 heroHeading: 'ReproHack Hub'
 heroSubHeading: 'A Django app built to facilitate all aspects of running ReproHacks'
 heroBackground: '/work/reprohack_banner1.png'
