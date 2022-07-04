@@ -12,6 +12,10 @@ This website would not be possible without the following open source works:
 The website is built using [Hugo](https://gohugo.io/) and the [Hero theme](https://github.com/zerostaticthemes/hugo-hero-theme) by [zerostatic](https://www.zerostatic.io).
 
 
+### Shortcodes
+
+- `hugo-embed-pdf-shortcode` was modified from [anvithks/hugo-embed-pdf-shortcode](https://github.com/anvithks/hugo-embed-pdf-shortcode)
+
 ### Icons
 
 All icons were sourced from flaticon
