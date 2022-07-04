@@ -8,3 +8,5 @@ themes/hugo-hero-theme/exampleSite/*
 static/images/Rlogo.svg
 R/build.R
 content/post/*
+static/work/emodnet-logo.svg
+layouts/_default/*
