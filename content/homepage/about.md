@@ -6,7 +6,7 @@ button: 'About Me'
 buttonLink: 'about'
 ---
 
-Skilled in data science and software development in R, its **my research software engineering experience in an academic setting that sets me apart**. I'm **acutely aware of researchers needs** as well of the **importance of researchers having access to RSE skills** and support. 
+Skilled in data science and software development in R, its **my research software engineering experience in an academic setting that distinguishes my offering**. I'm **acutely aware of researchers needs** as well of the **importance of researchers having access to RSE skills** and support. 
 
 Importantly, my **firm belief in the power of open sourcing science to improve robustness, transparency and reusability and supercharge the impact of scientific research drives all aspects of my work**.
 
