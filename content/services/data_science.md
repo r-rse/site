@@ -30,7 +30,7 @@ As modern research becomes increasingly computational, leveraging more diverse f
 * Literate Programming, Report and manuscript writing in Rmarkdown or Quarto.
 * Setting you up to write your thesis in R using bookdown.
 * Dependency and computational environment management (including containerisation with Docker of Singularity).
-* Version control and transparent code sharing (publically or privately) through online repositories.
+* Version control and transparent code sharing (publicly or privately) through online repositories.
 * Continuous integration (for testing or automated documentation builds).
 * Packaging papers, code and data into Research Compendia.
 
