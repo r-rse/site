@@ -30,6 +30,9 @@ All icons were sourced from flaticon
 
 - [Shout icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/shout)
 
+- [Folder animated icons created by Freepik - Flaticon](https://www.flaticon.com/free-animated-icons/folder)
+
+
 ### Images
 
 - Header photo on Shiny Apps Services page by [Carlos Muza](https://unsplash.com/@kmuza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
