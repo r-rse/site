@@ -57,35 +57,4 @@ While I expect to work closely with my clients on their research questions, I ha
 
 ### A research software engineering approach
 
-Ensuring transparency, robustness, efficiency and reproducibility is just as important. Our experience in Research Software Engineering means such considerations are baked in from the start for all our projects. We can also help with refactoring your own project code according to software engineering best practice.
-
-
-### Research Compendia for publication of research
-
-While Data Science outputs might take a variety of forms, the academic standard for communicating research results remains the academic paper. However...
-
-{{< blockquote source="**John Claerbout** paraphrased in  [Buckheit and Donoho (1995)](https://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf)">}}
-
-“An article about computational result is advertising, not scholarship.
-
-The actual scholarship is the full software environment, code and data, that produced the result.“
-
-
-{{< /blockquote >}}
-
-So how do we share and make better use of the code, data and computational enviroment representing the legitimate scholarship outputs underlying a research paper? Enter the concept of the [research compendium](https://research-compendium.science/) as a container for the collection of materials associated with results reported in a research paper. The compendium serves as a means for distributing, managing, and updating the collection.
-
-Should you choose this route for your publications, I can set you up or help you bundle your the code, text and data associated with a publication as a research compendium for greater transparency, easier distribution and versioning and more efficient updating (particularly useful during the review process!)
-
-#### Some potential features of a research compendium:
-
-- Use of literate programming (in Rmarkdown or Quarto) to combine code, text and outputs like tables and graphs in a single reproducible document.
-- Packaging up associated code like functions or data processing scripts for ease of access.
-- Use of formal version control system and remote sharing platforms like GitHub for better tracking of changes and ease of distribution. 
-- Use of formal release system to improve reproducibility and provencance tracking of state of code used to produce results.
-- Inclusion of tests for code validation and increased robustness.
-- Appropriate dependency and computational environment management for increased reproducibility.
-- Metadata generation for associated data to increase the potential for and ensure correct reuse.
-
-
- 
+Ensuring transparency, robustness, efficiency and reproducibility is just as important. My experience in Research Software Engineering means such considerations are baked in from the start for all projects. I can also help with refactoring your own project code according to software engineering best practice.
