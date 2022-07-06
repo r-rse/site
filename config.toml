@@ -49,7 +49,7 @@ theme = "hugo-hero-theme"
 
 [[menu.main]]
     name = "CV"
-    url = "docs/full-cv.pdf"
+    url = "/docs/full-cv.pdf"
     weight = 4
 
 [[menu.main]]
