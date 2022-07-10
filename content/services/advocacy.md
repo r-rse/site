@@ -98,14 +98,13 @@ podcast-title="It's All About Reproducibility" >}}
 ### Interviews
 
 
-
 {{< interview 
-thumbnail="/services/storyengine.jpeg" 
-caption="https://storyengine.io/anna-krystalli/" 
-podcast="Mozilla Story Engine" 
-podcast-title="Interview for the Mozilla Network50 initiave" >}}
+thumbnail="https://media.nature.com/w1248/magazine-assets/d41586-020-02462-7/d41586-020-02462-7_18291680.jpg" 
+caption="https://www.nature.com/articles/d41586-020-02462-7" 
+podcast="Challenge to scientists: does your ten-year-old code still run?" 
+podcast-title="Nature: Technology Feature" >}}
 
-I gave this interview as part of being recoginsed in the first [Mozilla Network50](https://foundation.mozilla.org/en/blog/network-50/) cohort of 50 People Who Made the Internet a Better Place in 2016
+I was interviewed, among many others, as part of a piece on the [Ten Year Reproducibility challenge](http://rescience.github.io/ten-years/). We discussed challenges to scientific code reproducibility with a particular focus on lessons learnt through [ReproHacks](https://www.reprohack.org/).
 
 {{< /interview >}}
 
@@ -120,3 +119,17 @@ podcast-title="The Guardian" >}}
 Although not a full interview, I did manage to get quoted in this Guardian article on the global March for Science I attended in London in 2017.
 
 {{< /interview >}}
+
+
+{{< interview 
+thumbnail="/services/storyengine.jpeg" 
+caption="https://storyengine.io/anna-krystalli/" 
+podcast="Mozilla Story Engine" 
+podcast-title="Interview for the Mozilla Network50 initiave" >}}
+
+I gave this interview as part of being recoginsed in the first [Mozilla Network50](https://foundation.mozilla.org/en/blog/network-50/) cohort of 50 People Who Made the Internet a Better Place in 2016
+
+{{< /interview >}}
+
+
+
