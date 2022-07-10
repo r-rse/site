@@ -10,7 +10,7 @@
 {{ $subpages := sort $subpages ".Params.weight" }}
 {{ range $subpages }}
 <div class="strip bg-cover bg-position-top bg-color-burn" style="background-image: url('{{ .Params.background | relURL }}');">
-  <div class="container pt-17 pb-17">
+  <div class="container pt-5 pb-8 pb-md-14 pt-md-14">
     <div class="row">
       {{ if isset .Params "avatar" }}
         <div class="col-12 col-md-6">
