@@ -1,8 +1,8 @@
 ---
-title: 'Work'
+title: 'Portfolio'
 date: 2018-02-10T11:52:18+07:00
-heroHeading: 'Work'
-heroSubHeading: 'Portfolio and previous projects'
+heroHeading: 'Portfolio'
+heroSubHeading: 'Portfolio of past projects'
 heroBackground: 'images/anglesey_banner.jpg'
 blendMode: 'hero-image-blend-darken'
 ---
