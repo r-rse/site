@@ -1,0 +1,59 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-contact{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+<div class="intro intro-small">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8">
+      {{ .Content }}
+      <br>
+      <h4><strong>{{ .Site.Data.contact.businessName }}</strong></h4>
+      <ul>
+        <li><em><span style="color:#808080">{{ .Site.Data.contact.services }}</span></em></li>
+        <li><strong>GECR No: </strong>
+            <a href="https://www.businessregistry.gr/publicity/show/{{ .Site.Data.contact.general_commerce_number }}">
+                {{ .Site.Data.contact.general_commerce_number }}
+            </a>
+        </li>
+      </ul>
+      <br><br>
+      <h5><strong>{{ .Site.Data.contact.name }}</strong></h5>
+      <ul>
+        {{ if .Site.Data.contact.phone }}
+        <li><strong>Phone: </strong>{{ .Site.Data.contact.phone }}</li>
+        {{ end }}
+        {{ if .Site.Data.contact.email }}
+        <li><strong>Email: </strong><a href="mailto:{{ .Site.Data.contact.email }}">
+            {{ .Site.Data.contact.email }}</a></li>
+        {{ end }}
+        {{ if .Site.Data.contact.address }}
+        <li style="white-space: pre-wrap;"><strong>Address: </strong><br>{{ .Site.Data.contact.address }}</li>
+        {{ end }}
+      </ul>
+      {{ if .Site.Data.contact.hours }}
+      <h4 class="mt-4">Business Hours</h4>
+      <table class="table table-sm opening-hours-table">
+        {{ range .Site.Data.contact.hours }}
+        <tr>
+          <td class="day font-weight-bold">{{ .day }}</td>
+          <td class="opens">{{ .open }}</td>
+          <td>-</td>
+          <td class="closes">{{ .close }}</td>
+        </tr>
+        {{ end }}
+      </table>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
