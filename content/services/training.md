@@ -49,10 +49,10 @@ I have developed and taught a number of full to multi day courses. Here are a co
 
 
 
-{{< detail-tag tabtitle="#### Reproducible Research Data and Project Management in R" screenshot="/services/acce-rrresearch.png" href="https://annakrystalli.me/rrresearchACCE20/" duration="4 days"
+{{< detail-tag tabtitle="#### Reproducible Research Data and Project Management in R" screenshot="/services/acce-rrresearch.png" href="https://acce-rrresearch.netlify.app/" duration="5 days"
 level="Beginner to Intermediate" button-text="Course Website" platform="RStudio Cloud" >}}
 
-This 4 day course was developed for the [ACCE Doctoral Partnership](https://acce.shef.ac.uk/) program and delivered yearly from 2015 to 2021.
+This 5 day course was developed for the [ACCE Doctoral Partnership](https://acce.shef.ac.uk/) program and delivered yearly from 2015 to date.
 
 It focuses on data and project management through R and Rstudio, introduces students to best practice and equips them with modern tools and techniques for managing data and computational workflows to their full potential. The course is designed to be relevant to students with a wide range of backgrounds, working with anything from relatively small sets of data collected from field or experimental observations, to those taking a more computational approach and bigger datasets.
 
@@ -74,7 +74,7 @@ The full course materials, including a breakdown of topics covered each day, are
 
 
 
-{{< detail-tag tabtitle="#### Git & GitHub through GitKraken Client - From Zero To Hero!" screenshot="/services/gitkraken.png" href="https://srse-git-github-zero2hero.netlify.app/" duration="1 day" level="Beginner to Intermediate" button-text="Course Website" platform="GitKraken">}}
+{{< detail-tag tabtitle="#### Git & GitHub through GitKraken Client - From Zero To Hero!" screenshot="/services/gitkraken.png" href="https://r-rse-git-github-zero2hero.netlify.app/" duration="1 day" level="Beginner to Intermediate" button-text="Course Website" platform="GitKraken">}}
 
 
 
