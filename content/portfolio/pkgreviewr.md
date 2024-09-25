@@ -26,7 +26,6 @@ btn-title="Documentation" code-href="https://github.com/ropensci-org/pkgreviewr"
 
 I presented the package and story behind it's creation at the 2019 UK RSE Conference where it received first prize!
 
-{{< tweet user="RSEConUK" id="1174339190093426690" >}}
 
 Here's the poster!
 
