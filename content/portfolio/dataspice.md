@@ -2,7 +2,7 @@
 title: 'dataspice R package'
 date: 2018-11-18T12:33:46+10:00
 draft: false
-weight: 5
+weight: 6
 heroHeading: 'dataspice R package'
 heroSubHeading: 'Create lightweight schema.org descriptions of your datasets.'
 heroBackground: ''

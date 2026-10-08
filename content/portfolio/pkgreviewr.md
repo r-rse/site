@@ -2,7 +2,7 @@
 title: 'pkgreviewr R package'
 date: 2018-11-18T12:33:46+10:00
 draft: false
-weight: 2
+weight: 3
 heroHeading: 'pkgreviewr R package'
 heroSubHeading: 'Facilitating rOpenSci reviews through templating and automation.'
 heroBackground: 'work/pkgreviewr-docs.png'

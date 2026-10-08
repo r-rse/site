@@ -1,0 +1,15 @@
+{{- $links := slice
+  (dict "key" "site" "label" "Project Site" "icon" "globe2")
+  (dict "key" "docs" "label" "Documentation" "icon" "book")
+  (dict "key" "runiverse" "label" "R-universe" "icon" "box-seam")
+  (dict "key" "code" "label" "Source Code" "icon" "github")
+  (dict "key" "slides" "label" "Slides" "icon" "easel")
+  (dict "key" "recording" "label" "Recording" "icon" "camera-video")
+  (dict "key" "doi" "label" "DOI" "icon" "file-earmark-text")
+  (dict "key" "news" "label" "News Article" "icon" "newspaper")
+-}}
+<div class="project-links">
+{{- range $links }}{{ $l := . }}{{ with $.Get $l.key }}
+  <a class="markdown-btn project-link" href="{{ . }}" target="_blank" rel="noreferrer">{{ partial "icon.html" $l.icon }} {{ $.Get (printf "%s-label" $l.key) | default $l.label }}</a>
+{{- end }}{{ end }}
+</div>

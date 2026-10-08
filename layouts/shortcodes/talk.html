@@ -16,32 +16,25 @@
         </div>
     {{ end }}
     {{ with .Get "image-src" }}
-        <image class="screenshot" src={{ . }} width="100%"></image>
+        <a href="{{ . }}" class="glightbox"><img class="screenshot" src="{{ . }}" width="100%" loading="lazy" /></a>
     {{ end }}
     <br>
     <h6>Abstract</h6>
     <div class="abstract">
         {{ .Inner | markdownify }}
     </div>
-    <div class="row">
-        <div class="col-auto">
-            <div class="md-button-container">
-                <a class="markdown-btn" href="{{ .Get "slides-href" }}">
-                    <i class="fa-browser"></i> Slides 
-                </a>
-            </div>
-        </div>
-        
-        <div class="col-auto">
-            {{ with .Get "rec-href" }}
-            <div class="md-button-container">
-                <a class="markdown-btn" href="{{ . }}">
-                    <i class="fas fa-code"></i> 
-                    Recording
-                </a>
-            </div>
-            {{ end }}
-        </div>
-   
+    <div class="project-links">
+        {{ with .Get "slides-href" }}
+        <a class="markdown-btn project-link" href="{{ . }}" target="_blank" rel="noreferrer">{{ partial "icon.html" "easel" }} Slides</a>
+        {{ end }}
+        {{ with .Get "rec-href" }}
+        <a class="markdown-btn project-link" href="{{ . }}" target="_blank" rel="noreferrer">{{ partial "icon.html" "camera-video" }} Recording</a>
+        {{ end }}
+        {{ with .Get "code-href" }}
+        <a class="markdown-btn project-link" href="{{ . }}" target="_blank" rel="noreferrer">{{ partial "icon.html" "github" }} Source Code</a>
+        {{ end }}
+        {{ with .Get "doi-href" }}
+        <a class="markdown-btn project-link" href="{{ . }}" target="_blank" rel="noreferrer">{{ partial "icon.html" "file-earmark-text" }} {{ $.Get "doi-label" | default "Zenodo" }}</a>
+        {{ end }}
     </div>
 </div>

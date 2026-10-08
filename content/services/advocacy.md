@@ -50,6 +50,17 @@ Below are some examples of relevant advocacy work to give a flavour of my philos
 
 ### Talks
 
+{{< talk src="https://hubverse-org.github.io/hubverse-talk-RSECon26/#/title-slide"
+title="The Hubverse: Streamlining Collaborative Infectious Disease Modeling for Public Health Impact"
+subtitle="RSECon26, Sheffield, September 2026"
+slides-href="https://hubverse-org.github.io/hubverse-talk-RSECon26/#/title-slide"
+code-href="https://github.com/hubverse-org/hubverse-talk-RSECon26"
+doi-href="https://zenodo.org/records/22685754" >}}
+
+Collaborative modeling hubs coordinate model submissions from many teams, promote transparency and facilitate ensemble modeling to inform public health decision making. The [hubverse](/portfolio/hubverse/) is a modular, open source software ecosystem designed to support the setup and operation of these hubs. This talk introduces the hubverse through real world examples, including its adoption by the CDC's FluSight influenza forecasting hub.
+
+{{< /talk >}}
+
 {{< talk youtube-src="KHMW8fV2NXo" 
 title="Computational Reproducibility, from Theory to Practice" 
 subtitle="useR!2020 Keynote" slides-href="https://annakrystalli.me/talks/user2020.html#1"

@@ -1,0 +1,15 @@
+{{- $fields := slice
+  (dict "key" "role" "label" "My Role" "icon" "person-badge")
+  (dict "key" "period" "label" "Period" "icon" "calendar-range")
+  (dict "key" "effort" "label" "Commitment" "icon" "clock")
+  (dict "key" "org" "label" "Organisation" "icon" "building")
+  (dict "key" "stack" "label" "Tech Stack" "icon" "code-slash")
+-}}
+<div class="project-meta">
+{{- range $fields }}{{ $f := . }}{{ with $.Get $f.key }}
+  <div class="project-meta-item">
+    <div class="project-meta-label">{{ partial "icon.html" $f.icon }} {{ $f.label }}</div>
+    <div class="project-meta-value">{{ . | markdownify }}</div>
+  </div>
+{{- end }}{{ end }}
+</div>

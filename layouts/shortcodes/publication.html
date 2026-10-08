@@ -1,0 +1,17 @@
+{{- $doi := .Get "doi" -}}
+<div class="publication">
+  {{ with .Get "thumbnail" }}
+  <div class="publication-thumb-col">
+    <a href="https://doi.org/{{ $doi }}" target="_blank" rel="noreferrer">
+      <img class="publication-thumb" src="{{ . }}" alt="{{ $.Get "alt" | default "Screenshot of the publication" }}" />
+    </a>
+  </div>
+  {{ end }}
+  <div class="publication-body">
+    <div class="publication-citation">{{ .Inner | markdownify }}</div>
+    <div class="project-links">
+      {{ with $doi }}<a class="markdown-btn project-link" href="https://doi.org/{{ . }}" target="_blank" rel="noreferrer">{{ partial "icon.html" "file-earmark-text" }} doi:{{ . }}</a>{{ end }}
+      {{ with .Get "code" }}<a class="markdown-btn project-link" href="{{ . }}" target="_blank" rel="noreferrer">{{ partial "icon.html" "github" }} Source Code</a>{{ end }}
+    </div>
+  </div>
+</div>

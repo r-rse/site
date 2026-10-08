@@ -2,7 +2,7 @@
 title: 'EMODnetWFS R package'
 date: 2018-11-18T12:33:46+10:00
 draft: false
-weight: 1
+weight: 2
 heroHeading: 'EMODnetWFS R package'
 heroSubHeading: 'Access EMODnet Web Feature Service data through R.'
 heroBackground: 'work/emodnetwfs.png'

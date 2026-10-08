@@ -2,7 +2,7 @@
 title: 'Shiny Apps'
 date: 2018-11-18T12:33:46+10:00
 draft: false
-weight: 3
+weight: 4
 heroHeading: 'Shiny Apps'
 heroSubHeading: "Showcase of shiny apps I've built or refactored for publication"
 heroBackground: '/work/sedmaps.png'
