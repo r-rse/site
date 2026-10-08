@@ -34,7 +34,8 @@
         {{ end }}
         {{ if .Site.Data.contact.email }}
         <li><strong>Email: </strong><a href="mailto:{{ .Site.Data.contact.email }}">
-            {{ .Site.Data.contact.email }}</a></li>
+            {{ .Site.Data.contact.email }}</a>
+            {{ with .Site.Data.contact.email_secondary }} or <a href="mailto:{{ . }}">{{ . }}</a>{{ end }}</li>
         {{ end }}
         {{ if .Site.Data.contact.address }}
         <li style="white-space: pre-wrap;"><strong>Address: </strong><br>{{ .Site.Data.contact.address }}</li>
