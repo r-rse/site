@@ -16,9 +16,14 @@ The website is built using [Hugo](https://gohugo.io/) and the [Hero theme](https
 
 - `hugo-embed-pdf-shortcode` was modified from [anvithks/hugo-embed-pdf-shortcode](https://github.com/anvithks/hugo-embed-pdf-shortcode)
 
+### Libraries
+
+- Image lightbox by [GLightbox](https://github.com/biati-digital/glightbox) (MIT licence)
+- Inline SVG icons from [Bootstrap Icons](https://icons.getbootstrap.com/) (MIT licence)
+
 ### Icons
 
-All icons were sourced from flaticon
+Service icons were sourced from flaticon
 
 - [Box animated icons created by Freepik - Flaticon](https://www.flaticon.com/free-animated-icons/box)
 

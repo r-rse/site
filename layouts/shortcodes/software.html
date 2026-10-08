@@ -2,7 +2,7 @@
      {{ with .Get "src" }}
     <iframe class="talk" src="{{ . }}" frameborder="0" width="100%" height="100%"></iframe> {{ end }}
      {{ with .Get "image-src" }}
-     <image class="screenshot" src={{ . }} width="100%"></image>
+     <a href="{{ . }}" class="glightbox"><img class="screenshot" src="{{ . }}" width="100%" loading="lazy" /></a>
      {{ end }}
 </div>
 <div class="row h-100">

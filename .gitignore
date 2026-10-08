@@ -11,3 +11,5 @@ content/post/*
 static/work/emodnet-logo.svg
 layouts/_default/*
 .attic/*
+!layouts/_default/baseof.html
+!layouts/_default/_markup/

@@ -1,0 +1,22 @@
+{{- /* Override of Hugo's built-in figure shortcode: images open in the lightbox unless an explicit link is given. */ -}}
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  {{- $link := .Get "link" | default (.Get "src") -}}
+  <a href="{{ $link }}"{{ if .Get "link" }}{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}{{ else }} class="glightbox" data-gallery="{{ .Page.RelPermalink }}"{{ with .Get "caption" }} data-title="{{ . | markdownify | plainify }}"{{ end }}{{ end }}>
+    <img src="{{ .Get "src" }}"
+      {{- if or (.Get "alt") (.Get "caption") }} alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify | plainify }}{{ end }}"{{ end -}}
+      {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+      {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+      loading="lazy" />
+  </a>
+  {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+  <figcaption>
+    {{ with (.Get "title") -}}<h4>{{ . }}</h4>{{- end -}}
+    {{- if or (.Get "caption") (.Get "attr") -}}<p>
+      {{- .Get "caption" | markdownify -}}
+      {{- with .Get "attrlink" }}<a href="{{ . }}">{{ end -}}
+      {{- .Get "attr" | markdownify -}}
+      {{- if .Get "attrlink" }}</a>{{ end }}</p>
+    {{- end }}
+  </figcaption>
+  {{- end }}
+</figure>

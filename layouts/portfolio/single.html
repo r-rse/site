@@ -17,7 +17,7 @@
       <div class="masonry">
         {{ range .Params.images }}
           <div class="work-image item">
-            <img src="{{ . | relURL }}"/>
+            <a href="{{ . | relURL }}" class="glightbox" data-gallery="gallery"><img src="{{ . | relURL }}" loading="lazy" /></a>
           </div>
         {{ end }}
       </div>

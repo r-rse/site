@@ -3,7 +3,7 @@
 <div class ="container h-100 podcast justify-content-centre align-text-center">
     <h2>{{ .Get "title" }}</h2>
         <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
-            <a href="{{ .Get "app-href" }}">
+            <a href="{{ .Get "screenshot" }}" class="glightbox" data-gallery="{{ .Page.RelPermalink }}" data-title="{{ .Get "title" }}">
                 <div class = "img-responsive">
                     <img src="{{ .Get "screenshot" }}" 
                     {{ if or (.Get "alt") (.Get "caption") }}

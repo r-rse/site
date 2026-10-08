@@ -1,0 +1,4 @@
+{{- /* Wrap every markdown image in a lightbox link (GLightbox, initialised in baseof.html). */ -}}
+<a href="{{ .Destination | safeURL }}" class="glightbox" data-gallery="{{ .Page.RelPermalink }}"{{ with .Title }} data-title="{{ . }}"{{ end }}>
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" />
+</a>

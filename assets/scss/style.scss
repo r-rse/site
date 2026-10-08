@@ -101,10 +101,10 @@ code {
 }
 
 /* Code in text */
-p > code,
-li > code,
-dd > code,
-td > code {
+p>code,
+li>code,
+dd>code,
+td>code {
   background: #ffeff0;
   word-wrap: break-word;
   box-decoration-break: clone;
@@ -113,33 +113,39 @@ td > code {
 }
 
 .avatar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5rem;
-    border-radius: 50%;
-    width: 85%;
-    @include media-breakpoint-up(md) {
-        width: 60%;
-      }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  border-radius: 50%;
+  width: 85%;
+
+  @include media-breakpoint-up(md) {
+    width: 60%;
+  }
 }
 
 .inverted-colors {
   body {
     color: $inverted-text;
   }
+
   a {
     color: $inverted-header;
   }
+
   p {
-      color: $inverted-text;
+    color: $inverted-text;
+
     a {
       color: $inverted-header;
+
       &:hover {
         color: $link-inverted-hover-color;
       }
     }
   }
+
   h2 {
     color: $inverted-header;
   }
@@ -161,7 +167,7 @@ summary.training {
   list-style: none !important;
   margin-top: 0.5em;
   margin-bottom: 1.5em;
-  
+
   &:hover,
   &:active {
     border: 0.1em solid $primary;
@@ -172,97 +178,322 @@ summary.training {
   }
 }
 
-  .detail-inner {
-      margin-left: 4em;
-      padding-left: 2em;
-      margin-top: 2em;
-      border-left: 0.2em solid $primary;
-  }
-  
+.detail-inner {
+  margin-left: 4em;
+  padding-left: 2em;
+  margin-top: 2em;
+  border-left: 0.2em solid $primary;
+}
+
 blockquote {
-    border-left: 0.2em solid $primary;
-    padding-left: 2em;
-    margin: 1rem 1rem 2rem 1.5rem;
-    
-   // &:before {
-    //    content: '';
-    //}
-    //&:after {
-    //    content: "'";
-   // }
-    .blockquote-source {
-        padding-top: 1rem;
-        font-style: oblique;
-        font-size: $font-size-base * 0.9;
-    }
+  border-left: 0.2em solid $primary;
+  padding-left: 2em;
+  margin: 1rem 1rem 2rem 1.5rem;
+
+  // &:before {
+  //    content: '';
+  //}
+  //&:after {
+  //    content: "'";
+  // }
+  .blockquote-source {
+    padding-top: 1rem;
+    font-style: oblique;
+    font-size: $font-size-base * 0.9;
+  }
 }
 
 .podcast {
-    background-color: $gray-300 !important;
-    border-radius: 20px;
-    margin: 1em 0;
-    
-    .interview-col {
-        padding: 0.5em;
-        font-style: oblique;
-        font-size: $font-size-base * 0.8;
-    }
-    
-    .podcast-audio-col {
-        padding: 0.5em;
-    }
+  background-color: $gray-300 !important;
+  border-radius: 20px;
+  margin: 1em 0;
+
+  .interview-col {
+    padding: 0.5em;
+    font-style: oblique;
+    font-size: $font-size-base * 0.8;
+  }
+
+  .podcast-audio-col {
+    padding: 0.5em;
+  }
 }
 
-img.podcast-thumb  {
-    border-radius: 20px;
-    padding: 0.5em;
+img.podcast-thumb {
+  border-radius: 20px;
+  padding: 0.5em;
 }
 
 .iframe-wrapper {
-    position: relative;
-    padding-bottom: 75% // 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
+  position: relative;
+  padding-bottom: 75% // 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
 }
 
 .webpage-wrapper {
-    position: relative;
-    padding-bottom: 80%;
+  position: relative;
+  padding-bottom: 80%;
+  border: 0.1em solid $primary;
+
+  .screenshot {
+    padding-bottom: 10%;
     border: 0.1em solid $primary;
-    
-    .screenshot {
-        padding-bottom: 10%;
-        border: 0.1em solid $primary;
-    }
+  }
 }
 
 
 iframe.talk {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .shiny-caption {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .offering {
-    background-color: RGBA(17, 163, 165, 0.25) !important;
-    border-radius: 20px;
-    margin: 1em 0; 
-    padding: 1em 1.5em;
+  background-color: RGBA(17, 163, 165, 0.25) !important;
+  border-radius: 20px;
+  margin: 1em 0;
+  padding: 1em 1.5em;
 }
 
 .talk-card {
-    background-color: $gray-300 !important;
-    border-radius: 20px;
-    margin: 1em 0;
-    padding: 1.5em 2em;
-    
-    .abstract {
-        padding-top: 1rem;
-        font-style: oblique;
-        font-size: $font-size-base * 0.9;
+  background-color: $gray-300 !important;
+  border-radius: 20px;
+  margin: 1em 0;
+  padding: 1.5em 2em;
+
+  .abstract {
+    padding-top: 1rem;
+    font-style: oblique;
+    font-size: $font-size-base * 0.9;
+  }
+}
+
+/* Inline SVG icons (Bootstrap Icons, layouts/partials/icons) */
+.icon {
+  display: inline-block;
+  vertical-align: -0.15em;
+  line-height: 1;
+
+  svg {
+    width: 1.1em;
+    height: 1.1em;
+  }
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  justify-content: center;
+  margin: 2em 0;
+
+  a.markdown-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+}
+
+.project-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1.25em;
+  background-color: $gray-300;
+  border-radius: 20px;
+  padding: 1.5em 2em;
+  margin: 1.5em 0;
+
+  .project-meta-label {
+    font-weight: bold;
+    color: $primary;
+    font-size: $font-size-base * 0.8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+    .icon {
+      margin-right: 0.35em;
     }
+  }
+
+  .project-meta-value {
+    margin-top: 0.25em;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.publication {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  align-items: flex-start;
+  background-color: $gray-300;
+  border-radius: 20px;
+  padding: 1.5em 2em;
+  margin: 1.5em 0;
+
+  .publication-thumb-col {
+    flex: 0 0 14rem;
+    max-width: 100%;
+  }
+
+  .publication-thumb {
+    width: 100%;
+    border: 0.1em solid $primary;
+    border-radius: 8px;
+  }
+
+  .publication-body {
+    flex: 1 1 18rem;
+  }
+
+  .publication-citation {
+    font-size: $font-size-base * 0.9;
+  }
+
+  .project-links {
+    justify-content: flex-start;
+    margin: 1em 0 0;
+  }
+}
+
+/* Markdown images inside course detail panels */
+.detail-inner p > a > img,
+.detail-inner p > img {
+  display: block;
+  max-width: 75%;
+  margin: 1.5em auto;
+  border: 0.1em solid $primary;
+}
+
+/* Course buttons with a thumbnail on the left */
+summary.training.has-thumb {
+  display: flex;
+  align-items: center;
+  gap: 1.25em;
+  text-align: left;
+  padding: 0.6em 1.25em 0.6em 0.6em;
+  border: 0.1em solid $primary;
+
+  &:hover,
+  &:active {
+    padding: 0.6em 1.25em 0.6em 0.6em;
+  }
+
+  .training-thumb {
+    flex: 0 0 auto;
+    width: 8em;
+    height: 5.25em;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 6px;
+    background-color: white;
+  }
+
+  .training-title {
+    flex: 1 1 auto;
+
+    h4 {
+      margin: 0;
+    }
+  }
+}
+
+/* Portfolio cards: uniform thumbnail box and equal card heights */
+.work-summary {
+  height: 100%;
+
+  .work-image {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    max-height: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+    background-color: $gray-100;
+    border-radius: $border-radius;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+
+  .work-content {
+    width: 100%;
+  }
+}
+
+/* Course panels: rounder corners, open-state indicator and close button */
+summary.training {
+  border-radius: 1.5em;
+  transition: background-color 0.2s, color 0.2s;
+
+  .training-chevron {
+    flex: 0 0 auto;
+    margin-left: auto;
+    font-size: 1.1em;
+    transition: transform 0.25s;
+  }
+
+  &.has-thumb .training-thumb {
+    border-radius: 1em;
+  }
+}
+
+details[open] > summary.training {
+  background-color: white;
+  color: $primary;
+  border: 0.1em solid $primary;
+
+  .training-chevron {
+    transform: rotate(180deg);
+  }
+}
+
+.detail-inner {
+  border-radius: 0 0 1.5em 0;
+  margin-bottom: 2.5em;
+}
+
+.detail-close {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-family: inherit;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: $primary;
+  background: none;
+  border: 0.1em solid $primary;
+  border-radius: 2em;
+  padding: 0.35em 1.1em;
+  cursor: pointer;
+  margin: 0 0 1.5em;
+
+  &:hover,
+  &:focus {
+    background-color: $primary;
+    color: white;
+    outline: none;
+  }
 }
