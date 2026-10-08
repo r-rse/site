@@ -44,15 +44,15 @@ All examples of training materials below can be updated with newer information o
 
 ### Courses
 
-I have developed and taught a number of full to multi day courses. Here are a couple of examples of the types of courses I like to teach. 
+I have developed and taught a number of full to multi day courses. Here are a few examples of the types of courses I like to teach. 
 
 
 
 
-{{< detail-tag tabtitle="#### Reproducible Research Data and Project Management in R" screenshot="/services/acce-rrresearch.png" href="https://acce-rrresearch.netlify.app/" duration="5 days"
-level="Beginner to Intermediate" button-text="Course Website" platform="RStudio Cloud" >}}
+{{< detail-tag tabtitle="#### Reproducible Research Data and Project Management in R" screenshot="/services/acce-rrresearch.png" href="https://acce-rrresearch-2026.netlify.app/" repo="https://github.com/r-rse/rrresearch-acce-rrse" duration="5 days"
+level="Beginner to Intermediate" button-text="Course Website" platform="Posit Cloud" >}}
 
-This 5 day course was developed for the [ACCE Doctoral Partnership](https://acce.shef.ac.uk/) program and delivered yearly from 2015 to date.
+This 5 day course was developed for the [ACCE Doctoral Partnership](https://acce.shef.ac.uk/) program and has been delivered yearly since 2015. The materials are refreshed every year and the current edition is linked below.
 
 It focuses on data and project management through R and Rstudio, introduces students to best practice and equips them with modern tools and techniques for managing data and computational workflows to their full potential. The course is designed to be relevant to students with a wide range of backgrounds, working with anything from relatively small sets of data collected from field or experimental observations, to those taking a more computational approach and bigger datasets.
 
@@ -89,6 +89,21 @@ The course covers:
 
 {{< /detail-tag >}}
 
+
+{{< detail-tag tabtitle="#### Parallel R Workflows" screenshot="/services/parallel-r.png" href="https://parallel-r.netlify.app/" repo="https://github.com/r-rse/parallel-r" level="Intermediate" button-text="Course Website" platform="Iridis HPC cluster, University of Southampton" >}}
+
+Developed for the [IRIDIS High Performance Computing facility](https://www.southampton.ac.uk/isolutions/staff/iridis.page) at the University of Southampton, this course introduces the basics of parallelisation in R and shows participants how to take their code from a laptop to an HPC cluster.
+
+The course focuses on the [futureverse](https://www.futureverse.org/) collection of packages, which provides a consistent interface across parallel backends and lets users parallelise in their preferred R style, whether that is the `apply` family of functions, loops or `purrr`.
+
+After attending this course, participants will:
+
+- Understand general concepts and strategies for parallelisation and how they relate to underlying hardware.
+- Be able to identify tasks amenable to parallelisation and follow best practice in parallel code.
+- Have an overview of the R packages available for parallelising computation, particularly the futureverse, and know when and how to deploy them.
+- Be able to deploy parallel R code on an HPC cluster as a batch job.
+
+{{< /detail-tag >}}
 
 ### Workshops
 
@@ -141,6 +156,27 @@ By the end of the workshop, you should be able to:
 {{< /detail-tag >}}
 
 
+### Tutorials
+
+Self paced online tutorials are a great way to reach a wider audience and give users of a data service or software a reproducible starting point for their own analyses.
+
+
+{{< detail-tag tabtitle="#### EMODnet Biology Geospatial R Tutorials" screenshot="/services/emodnet-geo-tutorials.png" screenshot-width="60%" href="https://emodnet.github.io/emodnet-bio-r-geo-tutorials/" repo="https://github.com/EMODnet/emodnet-bio-r-geo-tutorials" news-href="https://emodnet.ec.europa.eu/en/emodnet-biology-launches-four-reproducible-r-tutorials-geospatial-data-access" news-text="EMODnet News" duration="4 tutorials of 45 to 90 minutes" level="Beginner to Advanced" button-text="Tutorials Website" >}}
+
+A series of four reproducible tutorials developed for [EMODnet Biology](https://emodnet.ec.europa.eu/en/biology), teaching marine researchers how to access and analyse marine biological and environmental data from EMODnet web services in R. They build on the [`emodnet.wfs`](/portfolio/emodnetwfs/) and `emodnet.wcs` packages for accessing vector and raster data respectively.
+
+The tutorials progress from introductory to advanced workflows, each built around a real marine research question:
+
+1. **Protected Areas and Subsea Infrastructure**: identifying marine protected areas affected by pipelines and cables in the North Sea using vector data.
+2. **Copepods and Fish Spawning Grounds**: characterising zooplankton conditions across gadoid spawning grounds using gridded raster data.
+3. **Biodiversity Change and Depth**: combining vector and raster data to relate biodiversity change to depth on the North West European Shelf.
+4. **Characterising Benthic Biozones**: integrating EMODnet data with Copernicus Marine Service and trait data in the Gulf of Lion.
+
+![Overview of the four EMODnet geospatial R tutorials](/services/emodnet-geo-tutorials-cards.png)
+
+{{< /detail-tag >}}
+
+
 ### Seminars
 
 Perhaps you just want someone to speak about best practice when working with research code and data in R! I've given many talks on topics regarding research reproducibility (have a look at our page on [advocacy services]({{< ref "/services/advocacy" >}}) for more details), but here's an example of the most well rounded talk on the topic.
@@ -161,13 +197,7 @@ I've given this talk a number of times and continue to update it every time. A [
 
 I've been involved in many hackathons, both as participant and organiser, and find them extermely effective and productive learning environments. Whatever the learning experience you want to create and topic you want to base your hackathon around, I can help you design and facilitate all aspects of it.
 
-You can get a taste for why I love hackathons from the slides that accompanied the invited talk I gave at the British Ecological Society Quantitative Ecology Special Interest Group Hackathon in 2019.
-
-{{< iframe "https://annakrystalli.me/talks/bes_hackathon.html#1" >}}
-
-My speciality however, as founder and core team member of the ReproHack team, is running ReproHacks! See below for more details on the Reproducibility Hackathons we run.
-
-
+My speciality, as founder and core team member of the ReproHack team, is running ReproHacks! See below for more details on the Reproducibility Hackathons we run.
 
 {{< detail-tag tabtitle="#### ReproHacks" screenshot="/services/screenshot_beta.png" href="https://www.reprohack.org/" duration="Usually 1 day" button-text="ReproHack Hub" >}}
 
@@ -180,4 +210,12 @@ The project has seen a lot of development since being the topic of my 2019 SSI f
 
 We also now have the ReproHack hub (https://www.reprohack.org/) which provides infrastructure for facilitating all aspects of an event. If you are interested in finding out more or running one yourselves, please have a look at the Hub. There are plently of resources to get you started. However, should you want myself to come run one for you, please get in touch!
 
+For an introduction to ReproHacks, here are the slides from a talk I gave at the FENS Reproducibility Hackathon.
+
+{{< iframe "https://annakrystalli.me/talks/fens-reprohack.html#/reprohacks" >}}
+
 {{< /detail-tag >}}
+
+You can get a taste for why I love hackathons more generally from the slides that accompanied the invited talk I gave at the British Ecological Society Quantitative Ecology Special Interest Group Hackathon in 2019.
+
+{{< iframe "https://annakrystalli.me/talks/bes_hackathon.html#1" >}}

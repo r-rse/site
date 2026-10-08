@@ -1,15 +1,23 @@
 <details>
-  <summary class="training{{ with .Get "class" }} {{ . }}{{ end }}">{{ .Get "tabtitle" | markdownify }}</summary>
+  {{- $thumb := .Get "thumbnail" | default (.Get "screenshot") -}}
+  <summary class="training{{ with $thumb }} has-thumb{{ end }}{{ with .Get "class" }} {{ . }}{{ end }}">
+    {{- with $thumb }}<img class="training-thumb" src="{{ . }}" alt="" loading="lazy" />{{ end -}}
+    <span class="training-title">{{ .Get "tabtitle" | markdownify }}</span>
+    <span class="training-chevron">{{ partial "icon.html" "chevron-down" }}</span>
+  </summary>
   <div class="detail-inner">
-      <h5><strong>Duration:</strong>&nbsp;{{ .Get "duration" }}</h5>
+      {{ with .Get "duration" }}<h5><strong>Duration:</strong>&nbsp;{{ . }}</h5>{{ end }}
       {{ with .Get "level" }}<h5><strong>Level:</strong>&nbsp;{{ . }}</h5>{{ end }}
       {{ with .Get "platform" }}<h5><strong>Teaching Platform:</strong>&nbsp;{{ . }}</h5>{{ end }}
       {{ .Inner | markdownify }}
-      <div class="md-button-container">
-        <a class="markdown-btn" href="{{ .Get "href" }}" target = "_blank">  {{ .Get "button-text" }} </a>
+      <div class="project-links">
+        <a class="markdown-btn project-link" href="{{ .Get "href" }}" target="_blank" rel="noreferrer">{{ partial "icon.html" "globe2" }} {{ .Get "button-text" }}</a>
+        {{ with .Get "repo" }}<a class="markdown-btn project-link" href="{{ . }}" target="_blank" rel="noreferrer">{{ partial "icon.html" "github" }} Source Code</a>{{ end }}
+        {{ with .Get "news-href" }}<a class="markdown-btn project-link" href="{{ . }}" target="_blank" rel="noreferrer">{{ partial "icon.html" "newspaper" }} {{ $.Get "news-text" | default "News Article" }}</a>{{ end }}
       </div>
       <div class="md-button-container">
-        <img src="{{ .Get "screenshot" }}"  width=90% />
+        <a href="{{ .Get "screenshot" }}" class="glightbox" data-gallery="{{ .Page.RelPermalink }}"><img src="{{ .Get "screenshot" }}" width="{{ .Get "screenshot-width" | default "90%" }}" loading="lazy" /></a>
       </div>
+      <button type="button" class="detail-close">{{ partial "icon.html" "x-lg" }} Close</button>
   </div>
 </details>

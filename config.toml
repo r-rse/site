@@ -57,6 +57,10 @@ theme = "hugo-hero-theme"
     url = "/contact/"
     weight = 5
 
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
 [permalinks]
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
