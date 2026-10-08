@@ -38,7 +38,7 @@ Shiny is an R package that makes it easy to build interactive web apps straight 
 
 ## Why me?
 
-Building or refactoring Shiny apps is one of my favourite type of projects and I've built a number of them by now, including for clients as an RSE, which you can find in the wild. Have a look at the [Shiny Apps](/work/shiny-apps/) page in my work portfolio for more details on specific apps and links to live apps and their code.
+Building or refactoring Shiny apps is one of my favourite type of projects and I've built a number of them by now, including for clients as an RSE, which you can find in the wild. Have a look at the [Shiny Apps](/portfolio/shiny-apps/) page in my work portfolio for more details on specific apps and links to live apps and their code.
 
 I can help you design your app, build an app from scratch, refactor analysis code into a shiny app or refactor a prototype app into a production level application, complete with theming and functionality tests.
 

@@ -36,8 +36,6 @@ Creating a package out of your code allows us to leverage R software development
 
 ## Why me?
 
-I can help in all aspects of package development, whether building functionality from scratch to your specification or refactoring your code into an R package. I've built a number of both public and custom private packages for clients as well as built up experience through handling R package software reviews for rOpenSci. Have a look at the [work portfolio page](/work/) for more examples of packages I've built or contributes to. I generally to best practice laid out in the [rOpenSci Developers Guide](https://devguide.ropensci.org/) which you can review to get an idea of the standard you can expect from packages I build.
+I can help in all aspects of package development, whether building functionality from scratch to your specification or refactoring your code into an R package. I've built a number of both public and custom private packages for clients as well as built up experience through handling R package software reviews for rOpenSci. I generally adhere to best practice laid out in the [rOpenSci Developers Guide](https://devguide.ropensci.org/) which you can review to get an idea of the standard you can expect from packages I build.
 
-
-
-
+{{< button relref="/portfolio" >}}See packages I've built in my Portfolio{{< /button >}}
